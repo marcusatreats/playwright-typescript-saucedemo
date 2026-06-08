@@ -1,0 +1,16 @@
+{
+    "name": "playwright-ts-saucedemo",
+    "version": "1.0.0",
+    "description": "Playwright TypeScript test framework for SauceDemo",
+    "scripts": {
+        "test": "playwright test",
+        "test:chromium": "playwright test --project=chromium",
+        "test:headed": "playwright test --headed",
+        "report": "playwright show-report"
+    },
+    "devDependencies": {
+        "@playwright/test": "^1.44.0",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0"
+    }
+}
